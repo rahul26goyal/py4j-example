@@ -29,6 +29,7 @@ A small project to demonstrate working on py4j
    - start python shell
    - execute the below code to check that we are able to attache to JVM from python shell
    ```
+   >>> from py4j.java_gateway import JavaGateway
    >>> gatewayClient = JavaGateway()
    >>> random = gatewayClient.jvm.java.util.Random()
    >>> random.nextInt(2)
