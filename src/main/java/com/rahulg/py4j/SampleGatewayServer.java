@@ -10,5 +10,4 @@ public class SampleGatewayServer {
         gateway.start();
         System.out.println("Gateway Server Started...this will keep running.");
     }
-
 }
